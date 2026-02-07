@@ -17,3 +17,5 @@ This allows AI clients to establish a persistent connection directly to the ESP3
 - **Direct SSE Transport**: SSE for downstream (server → client) and HTTP POST for upstream (client → server).  
 - **Alpaca Discovery**: Automatically finds ASCOM Alpaca compatible devices (such as **OnStepNinja** or **AiBridge**) in your network.  
 - **Hardware Control**: Ready to integrate with telescope mounts including **NS-5000** and **OnStep** systems.
+
+![MCP Inspector SSE Alpaca Discovery](assets/mcp_inspector_sse_alpaca_discovery.png)
