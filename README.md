@@ -19,3 +19,4 @@ This allows AI clients to establish a persistent connection directly to the ESP3
 - **Hardware Control**: Ready to integrate with telescope mounts including **NS-5000** and **OnStep** systems.
 
 ![MCP Inspector SSE Alpaca Discovery](assets/mcp_inspector_sse_alpaca_discovery.png)
+
