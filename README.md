@@ -18,5 +18,5 @@ This allows AI clients to establish a persistent connection directly to the ESP3
 - **Alpaca Discovery**: Automatically finds ASCOM Alpaca compatible devices (such as **OnStepNinja** or **AiBridge**) in your network.  
 - **Hardware Control**: Ready to integrate with telescope mounts including **NS-5000** and **OnStep** systems.
 
-![MCP Inspector SSE Alpaca Discovery](assets/mcp_inspector_sse_alpaca_discovery.png)
+![MCP Inspector SSE Alpaca Discovery](assets/sukurinsiyotuto-2026-02-07-210234.jpg)
 
