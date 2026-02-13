@@ -1,6 +1,8 @@
-# AiBridgeMCP - World's First MCP Server on ESP32
+# AiBridgeMCP - MCP Server on ESP32
 
 This is the **first and only** implementation of a Model Context Protocol (MCP) server running natively on an ESP32 microcontroller. No Raspberry Pi. No PC proxy. Just a $5 board talking to Claude over SSE.
+
+AiBridgeMCP is, to the best of our research, the first native Model Context Protocol (MCP) server implementation running directly on an ESP32 microcontroller with official SSE transport support.
 
 https://mcpmarket.com/ja/server/aibridge?utm_source=chatgpt.com
 
