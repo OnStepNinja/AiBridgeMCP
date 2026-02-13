@@ -2,6 +2,8 @@
 
 This is the **first and only** implementation of a Model Context Protocol (MCP) server running natively on an ESP32 microcontroller. No Raspberry Pi. No PC proxy. Just a $5 board talking to Claude over SSE.
 
+https://mcpmarket.com/ja/server/aibridge?utm_source=chatgpt.com
+
 ## 🚀 Key Breakthrough: Direct SSE Connection
 
 Unlike many other MCP implementations that require a PC-side proxy,  
