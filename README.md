@@ -1,9 +1,6 @@
-# AiBridgeMCP - Standalone MCP Server for ESP32
+# AiBridgeMCP - World's First MCP Server on ESP32
 
-_Last updated: 2026-02-07 (JST)_
-
-AiBridgeMCP is a lightweight, standalone Model Context Protocol (MCP) server implementation running on ESP32.  
-It enables AI agents (such as Claude, Gemini, or ChatGPT) to interact directly with telescope control systems via the ASCOM Alpaca protocol.
+This is the **first and only** implementation of a Model Context Protocol (MCP) server running natively on an ESP32 microcontroller. No Raspberry Pi. No PC proxy. Just a $5 board talking to Claude over SSE.
 
 ## 🚀 Key Breakthrough: Direct SSE Connection
 
