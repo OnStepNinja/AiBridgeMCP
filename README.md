@@ -1,4 +1,5 @@
-🚀 Download All-in-One Package (Released: Feb 23, 2026)
+## 🚀 Download All-in-One Package (Released: Feb 23, 2026)
+
 For the easiest setup, we have released the AiBridgeMCP Nano (Free Edition) as a complete package on BOOTH. This "one-stop download" is recommended for all users as it includes everything required to start connecting your legacy hardware to AI immediately:
 
 Firmware Binary: Pre-built binary (v1.8.8) ready to flash to your ESP32.
