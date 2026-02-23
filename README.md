@@ -1,3 +1,17 @@
+🚀 Download All-in-One Package (Released: Feb 23, 2026)
+For the easiest setup, we have released the AiBridgeMCP Nano (Free Edition) as a complete package on BOOTH. This "one-stop download" is recommended for all users as it includes everything required to start connecting your legacy hardware to AI immediately:
+
+Firmware Binary: Pre-built binary (v1.8.8) ready to flash to your ESP32.
+
+Zero-Install Proxy: A bundled Node.js executable—start the MCP server without any environment setup.
+
+Full Documentation: Includes the User Manual, Quick Start Guide, and Experimental Ideas.
+
+Hardware Schematics: Professional reference for building your own RS-232C bridge.
+
+📥 Get it now for FREE:
+👉 https://onstepninja.booth.pm/
+
 # AiBridgeMCP - MCP Server on ESP32
 
 This is the **first and only** implementation of a Model Context Protocol (MCP) server running natively on an ESP32 microcontroller. No Raspberry Pi. No PC proxy. Just a $5 board talking to Claude over SSE.
