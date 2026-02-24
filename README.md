@@ -78,10 +78,10 @@ Get licenses, detailed design data, and upcoming official hardware.
 
 **Developer:** Nishioka Sadahiko (OnStepNinja)
 
-GitHub: https://github.com/OnStepNinja
-Blog: https://nskikaku.blog.fc2.com/ 
+Blog: https://nskikaku.blog.fc2.com/
+
 Community: https://www.facebook.com/groups/1230935959149731
-+1
+
 ---
 
 ![MCP Inspector 画面](./assets/mcp_inspector_sse_alpaca_discovery2.png)
