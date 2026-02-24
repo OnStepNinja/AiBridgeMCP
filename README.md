@@ -1,75 +1,85 @@
-## 🚀 Download All-in-One Package (Released: Feb 23, 2026)
+# AiBridgeMCP: The World's Best AI Bridge for Legacy Hardware
 
-For the easiest setup, we have released the AiBridgeMCP Nano (Free Edition) as a complete package on BOOTH. This "one-stop download" is recommended for all users as it includes everything required to start connecting your legacy hardware to AI immediately:
+> **"Stop writing code. Just give the manual to the AI."**
 
-Firmware Binary: Pre-built binary (v1.8.8) ready to flash to your ESP32.
-
-Zero-Install Proxy: A bundled Node.js executable—start the MCP server without any environment setup.
-
-Full Documentation: Includes the User Manual, Quick Start Guide, and Experimental Ideas.
-
-Hardware Schematics: Professional reference for building your own RS-232C bridge.
-
-📥 Get it now for FREE:
-👉 https://onstepninja.booth.pm/
-
-# AiBridgeMCP - MCP Server on ESP32
-
-This is the **first and only** implementation of a Model Context Protocol (MCP) server running natively on an ESP32 microcontroller. No Raspberry Pi. No PC proxy. Just a $5 board talking to Claude over SSE.
-
-AiBridgeMCP is, to the best of our research, the first native Model Context Protocol (MCP) server implementation running directly on an ESP32 microcontroller with official SSE transport support.
-
-https://mcpmarket.com/ja/server/aibridge?utm_source=chatgpt.com
-
-## 🚀 Key Breakthrough: Direct SSE Connection
-
-Unlike many other MCP implementations that require a PC-side proxy,  
-**AiBridgeMCP supports direct SSE (Server-Sent Events) transport**.  
-This allows AI clients to establish a persistent connection directly to the ESP32 hardware over your local network.
-
-## 🌟 Features
-
-- **True Standalone**: No Python or Node.js proxy needed on the client side.  
-- **Direct SSE Transport**: SSE for downstream (server → client) and HTTP POST for upstream (client → server).  
-- **Alpaca Discovery**: Automatically finds ASCOM Alpaca compatible devices (such as **OnStepNinja** or **AiBridge**) in your network.  
-- **Hardware Control**: Ready to integrate with telescope mounts including **NS-5000** and **OnStep** systems.
+**AiBridgeMCP** is a standalone physical bridge that connects any legacy device with an RS-232C port directly to modern AI agents (like Claude). From 80s microcomputers to expensive industrial instruments and telescope mounts—tasks that once required expert programming are now transformed into simple "conversations with AI."
 
 ---
 
-# AiBridgeMCP v1.8.0 Prototype (Experimental)
+## 💰 The $5 Revolution: A New World with a Single ESP32
 
-**This is an experimental release for developers and early adopters.**  
-Please note that some features are incomplete or under development.
+The most shocking part of this project is its overwhelming cost-performance.
 
-## ⚠️ Status & Limitations
-- **Experimental Build**: This firmware is a prototype. Use at your own risk.
-- **SSE Connection**: Confirmed working with **MCP Inspector v0.20.0**.
-  - *Note: Direct SSE connection from Google Antigravity is currently not supported.*
-- **ASCOM/Alpaca Tools**: Telescope control tools are currently disabled or unstable (IP/Timeout not implemented).
+* **A Tiny $5 Investment:** All you need to realize this revolutionary AI system is a single, off-the-shelf **ESP32 device (approx. $5)**.
+* **Standalone & PC-Free:** No expensive servers or dedicated PCs are required. This tiny chip functions as an independent, intelligent AI bridge.
+* **Redefining Your Assets:** Your "mysterious old equipment" gathering dust can be reborn as a cutting-edge AI-driven system for the price of a cup of coffee.
 
-## ✅ Working Features
-The following MCP tools are available in this version:
+---
 
-### File System (SPIFFS)
-- `fs_list`: List files in the root directory.
-- `fs_read`: Read file content (max 4KB).
-- `fs_write`: Write content to a file (create/overwrite).
-- `fs_append`: Append content to a file.
-- `fs_delete`: Delete a file.
+## 💡 Three Innovations of AiBridgeMCP
 
-### Serial Bridge
-Interact with external MCUs via UART.
-- `serial_write`: Send data to the serial port.
-- `serial_read`: Read data from the serial port.
-- `serial_query`: Send command and wait for a response.
-- `serial_config`: Change baud rate (Default: 115200bps).
-  - *Note: Baud rate setting resets to 115200bps after a reboot.*
-  - *Note: The hardware serial port can be switched via `SERIALONSTEP_SELECT_PIN`, but only [Serial](cci:1://file:///c:/Users/user/.gemini/antigravity/scratch/AiMCPserver/AiMCPserver_v1_0.ino:1622:0-1638:1) is fully tested.*
+### 1. Chat Across Decades with 80s Micros
 
-### Alpaca Discovery
-- `alpaca_discover_start` / `alpaca_discover_result`: Discovery process should work.
+Turn your Apple II, MSX, or CP/M machine into a terminal for modern AI. Chat in real-time with the intelligence of the 21st century directly from 40-year-old hardware via RS-232C.
 
-## 🛠 Installation
-Please refer to **ESP32 Firmware Flashing Guide.pdf** for flashing instructions.
+### 2. Instant AI Systems: Manuals Instead of Programs
+
+Traditionally, automating old equipment took weeks of reading manuals and writing complex code. With AiBridgeMCP, you **simply provide the manual (PDF, etc.) to the AI**. The AI understands the commands and operates the device on your behalf.
+
+### 3. Natural Language Control for Professional Gear
+
+Supports astronomical GOTO systems (**OnStep, NS-5000**), Digital Multimeters (DMM), and Oscilloscopes. Just say "Measure the voltage" or "Go to that star" in plain Japanese or English to execute complex operations.
+
+---
+
+## 📈 A Massive Paradigm Shift
+
+| Feature | Traditional Method | AiBridgeMCP + AI |
+| --- | --- | --- |
+| **Preparation** | Weeks to Months | **Minutes (Just provide the manual)** |
+| **Required Skill** | Expert Programming | **Natural Language Conversation** |
+| **Cost** | Thousands in Dev Fees | **Just $5 for Hardware** |
+
+---
+
+## 🚀 Latest Release & Store
+
+### 📦 v1.8.8 All-in-One Package (2026/02/24)
+
+Includes everything you need to get started immediately.
+
+* **Contents:** Binary firmware, detailed guide, and stdio-to-SSE proxy.
+* **Download:** [GitHub Releases v1.8.8](https://github.com/OnStepNinja/AiBridgeMCP/releases/tag/v1.8.8)
+
+### 🛒 Official BOOTH Store
+
+Get licenses, detailed design data, and upcoming official hardware.
+
+* **URL:** [OnStepNinja BOOTH Store](https://onstepninja.booth.pm/items/8021077)
+
+---
+
+## 🛠 Technical Specifications (Overview)
+
+* **Hardware:** ESP32 (Standalone operation).
+* **Interface:** RS-232C (TTL level, requires converter).
+* **Protocol:** Model Context Protocol (MCP) over SSE.
+* **Core Tools:** `serial_query`, `serial_write`, `get_system_info`.
+
+---
+
+## 📜 License & Copyright
+
+* **License:** MIT License
+* **Copyright:** (C) 2026 Nishioka Sadahiko
+* **Disclaimer:** This system is provided "as is". The author is not responsible for any damage to equipment resulting from its use.
+
+---
+
+**Developer:** Sadahiko Nishioka (OnStepNinja)
+
+**Blog:** [NK Kikaku's Blog](https://nskikaku.blog.fc2.com/)
+
+---
 
 ![MCP Inspector 画面](./assets/mcp_inspector_sse_alpaca_discovery2.png)
