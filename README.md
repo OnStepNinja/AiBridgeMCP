@@ -44,7 +44,7 @@ Supports astronomical GOTO systems (**OnStep, NS-5000**), Digital Multimeters (D
 
 ## 🚀 Latest Release & Store
 
-# Streamable HTTP
+# Streamable HTTP 2026-02-27
 AiBridgeMCP previously supported SSE (Server-Sent Events),
 and now it has successfully connected using Streamable HTTP as well!!
 Version 2.0.0 🚀
