@@ -1,3 +1,18 @@
+---
+
+## LUNA — The Next Step
+
+**LUNA** (v3.9.0+) adds a Lua scripting engine to the AiBridgeMCP server.
+Claude can now deploy scripts directly onto the ESP32, which then run
+autonomously — no PC, no cloud, no further AI involvement required.
+
+Designed for astronomical instrument control:
+**Takahashi Temma2**, **LX200-compatible mounts**, **OnStep**.
+
+➡️ **[github.com/OnStepNinja/LUNA](https://github.com/OnStepNinja/LUNA)**
+
+---
+
 📚 AiBridgeMCP Docs — Start here for setup guides, technical references, and FAQ. 2026-03-13
 Ask questions directly inside NotebookLM and get answers from the official documentation.
 👉 https://notebooklm.google.com/notebook/f2ce997f-18c2-44c4-8738-973b204c190c
