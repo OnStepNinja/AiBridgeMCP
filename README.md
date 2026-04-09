@@ -5,6 +5,7 @@
 
 # AiBridgeMCP: The World's Best AI Bridge for Legacy Hardware
 
+[![SafeSkill 92/100](https://img.shields.io/badge/SafeSkill-92%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/onstepninja-aibridgemcp)
 > **"Stop writing code. Just give the manual to the AI."**
 
 **AiBridgeMCP** is a standalone physical bridge that connects any legacy device with an RS-232C port directly to modern AI agents (like Claude). From 80s microcomputers to expensive industrial instruments and telescope mounts — tasks that once required expert programming are now transformed into simple "conversations with AI."
