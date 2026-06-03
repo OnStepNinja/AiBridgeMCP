@@ -17,7 +17,7 @@ Lua scripts can also control **any ASCOM/Alpaca-compatible device** — focusers
 
 Designed for astronomical instrument control: **Takahashi Temma2**, **NS-5000**, and **OnStep NS-3000**.
 
-![LUNA Observatory System v5.9.6](assets/LUNA%20Observatory%20System%20v5.9.6.png)
+![LUNA Observatory System](assets/Hardware_Pinout_RS232C_Wiring_Guide4.png)
 
 ---
 
