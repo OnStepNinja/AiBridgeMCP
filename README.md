@@ -1,6 +1,9 @@
 > 🚀 **LUNA v5.9.1b Released** — Lua scripting engine on ESP32. Autonomous observation control, ASCOM/Alpaca integration, and more.
 > ➡️ **[github.com/OnStepNinja/LUNA](https://github.com/OnStepNinja/LUNA)**
 
+> 🆕 **LUNA Base v0.8.4 and LUNA Store** — install firmware and apps on an ESP32 board over Wi-Fi.
+> ➡️ **[LUNA Base v0.8.4](https://github.com/OnStepNinja/OnStepNinja-NS4000/releases/tag/LUNA_Base_v0.8.4)**
+
 ---
 
 # AiBridgeMCP: The World's Best AI Bridge for Legacy Hardware
